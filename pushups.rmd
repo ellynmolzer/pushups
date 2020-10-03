@@ -43,6 +43,8 @@ $H_A$: there is a difference in the average number of pushups players can do in 
 ```{r}
 plot(pushups~position,data=pushups)
 ```
+  
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -65,7 +67,7 @@ t.test(pushups~position,data=pushups)
 
 We used a t test because the cat variable has only 2 levels of position lines and skill.  
 
-We reject the null hypothesis because the p-value is > 0.05.  Our p-value is 9.421 showing us that having skills will help you do better pushups.  
+We reject the null hypothesis because the p-value is > 0.05.  Our p-value is 9.421 showing us that having skills will help you do better pushups.    
 
 
 When your markdown file successfully knits and you are satisfied with your results, then push your work back to your github repository and submit the link to your github repo to canvas  to complete this assignment.
